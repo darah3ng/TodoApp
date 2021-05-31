@@ -4,7 +4,8 @@ const serviceAccount = require("../../firebase.json");
 
 admin.initializeApp({
   credential: admin.credential.cert(serviceAccount),
-  databaseURL: "https://todoapp-1c316-default-rtdb.asia-southeast1.firebasedatabase.app"
+  databaseURL: "https://todoapp-1c316-default-rtdb.asia-southeast1.firebasedatabase.app",
+  storageBucket: "todoapp-1c316.appspot.com"
 });
 
   const db = admin.firestore();
