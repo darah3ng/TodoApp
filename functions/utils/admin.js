@@ -8,6 +8,6 @@ admin.initializeApp({
   storageBucket: "todoapp-1c316.appspot.com"
 });
 
-  const db = admin.firestore();
+const db = admin.firestore();
 
-  module.exports  = { admin, db };
+module.exports  = { admin, db };
