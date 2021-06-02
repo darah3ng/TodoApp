@@ -17,10 +17,10 @@ const {
     updateUserDetails
 } = require('./APIs/users');
 
-app.get('/todos', getAllTodos);
-app.post('/todo', postOneTodo);
-app.delete('/todo/:todoId', deleteTodo);
-app.put('/todo/:todoId', editTodo);
+app.get('/todos', auth, getAllTodos);
+app.post('/todo', auth, postOneTodo);
+app.delete('/todo/:todoId', auth, deleteTodo);
+app.put('/todo/:todoId', auth, editTodo);
 
 app.post('/login', loginUser);
 app.post('/signup', signUpUser);
