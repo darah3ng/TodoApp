@@ -1,5 +1,5 @@
 const { admin, db } = require('../utils/admin');
-const config = require('../../config');
+const config = require('../config');
 const firebase = require('firebase');
 const { validateLoginData, validateSignUpData } = require('../utils/validators');
 

@@ -1,4 +1,5 @@
 node_modules/
-firebase.json
 config.js
+firebase-key.json
 firebase-debug.log
+ui-debug.log
