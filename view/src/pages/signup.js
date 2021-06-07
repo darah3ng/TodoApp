@@ -243,14 +243,14 @@ const SignUp = (props) => {
             color="primary"
             className={classes.submit}
             onClick={handleSubmit}
-                          disabled={loading || 
-                              !state.email || 
-                              !state.password ||
-                              !state.firstName || 
-                              !state.lastName ||
-                              !state.country || 
-                              !state.username || 
-                              !state.phoneNumber}
+            disabled={loading || 
+                !state.email || 
+                !state.password ||
+                !state.firstName || 
+                !state.lastName ||
+                !state.country || 
+                !state.username || 
+                !state.phoneNumber}
           >
             Sign Up
             {loading && <CircularProgress size={30} className={classes.progess} />}
