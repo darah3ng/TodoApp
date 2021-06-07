@@ -1,0 +1,14 @@
+Tasks 🍁
+- ✅ Setup boilerplate for BE using firebase
+- ✅ Add CRUD feature for Todo
+- ✅ Add CRUD feature for user account
+- ✅ Add support for API routing
+- ✅ Add login page
+- ✅ Add signup page
+- ✅ Add homepage
+- ✅ Add todo dialog on homepage
+- ✅ Add FE todo functionalities
+- 🚧 Refactor class components to functions
+- 🚧 Break down last components to smaller components
+- 🚧 Create infrastructure diagrams
+- 🚧 Showcase app features using gif
