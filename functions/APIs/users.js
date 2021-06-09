@@ -107,13 +107,12 @@ exports.signUpUser = (request, response) => {
 const deleteImage = (imageName) => {
   const bucket = admin.storage().bucket();
   const path = `${imageName}`;
-  return bucket.file(path).delete()
-  .then(() => {
-      return;
-  })
-  .catch((error) => {
-      return;
-  })
+  return (
+    bucket.file(path)
+      .delete()
+      .then(() => { return; })
+      .catch((error) => { return; })
+  )
 }
 
 // Upload profile picture

@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import axios from 'axios';
 
-import Account from '../components/account';
+import Account from '../components/Account';
 import Todo from '../components/Todo';
 
 import Drawer from '@material-ui/core/Drawer';
